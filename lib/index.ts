@@ -1,1 +1,1 @@
-export { BlogsModule } from './module';
+export { BlogsModule } from './blogs.module';

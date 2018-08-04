@@ -1,7 +1,7 @@
 'use strict';
 
 import { Injectable } from '@nestjs/common';
-import { Blog } from './interfaces/blog';
+import { Blog } from './interfaces/blog.interface';
 
 @Injectable()
 export class BlogsService {
