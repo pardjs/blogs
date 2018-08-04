@@ -1,0 +1,27 @@
+{
+  "name": "blogs",
+  "version": "0.0.1",
+  "description": "The blogs module for pard.js",
+  "repository": "git@github.com:pardjs/blogs.git",
+  "author": "Oliver.W<ole3021@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "precommit": "lint-staged",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public"
+  },
+  "dependencies": {
+    "@nestjs/common": "^5.1.0"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+  }
+}

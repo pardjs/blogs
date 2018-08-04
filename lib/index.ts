@@ -1,0 +1,1 @@
+export { BlogsModule } from './module';
