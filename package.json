@@ -1,5 +1,5 @@
 {
-  "name": "blogs",
+  "name": "@pardjs/blogs",
   "version": "0.0.1",
   "description": "The blogs module for pard.js",
   "repository": "git@github.com:pardjs/blogs.git",
